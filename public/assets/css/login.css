@@ -1,0 +1,106 @@
+  @import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+
+.social_icon {
+    left: 0px;
+    z-index: 10;
+    position: absolute;
+    top: -5px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_icon span {
+    font-size: 40px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.social_icon span:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.card-header h3 {
+    font-family: "Amiri", serif;
+    color: #fff;
+    display: flex;
+    justify-content: start;
+    font-size: 25px;
+}
+
+.card-header {
+    background-color: #14bf96;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+input:focus {
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.links {
+    color: white;
+}
+
+.links a {
+    margin-left: 4px;
+    color: blue;
+    line-height: 20px;
+}
+
+.otm-input-group {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 0px !important;
+    margin-top: 14px;
+}
+
+.otm-input-icon {
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.otm-text-input {
+    height: 40px;
+    width: 100%;
+    padding-right: 46px;
+    box-shadow: 0px 0px 2px black;
+    border-radius: 4px;
+    border: 0;
+    border-radius: 1.5rem;
+}
+
+.otm-login-btn {
+    width: 100%;
+    background: #14bf96;
+    padding: 8px;
+    font-size: 17px;
+    border-radius: 4px;
+    border: 0;
+    color: #fff;
+    margin: 6px;
+    border-radius: 1.5rem;
+}
+
+.otm-input-checkbox {
+    display: flex;
+    justify-content: start;
+}
+
+.otm-card-links {
+    padding: 14px;
+    border-top: 1px solid #ebebeb;
+    display: flex;
+    justify-content: center;
+}

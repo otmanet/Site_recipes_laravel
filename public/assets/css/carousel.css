@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.carousel-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+.otm-carousel {
+    position: absolute;
+    right: -10px;
+}
+
+.otm-carousel-item {
+    width: 100%;
+    height: 400px;
+    float: left;
+}
+
+.otm-carousel-item img {
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: start;
+}
+
+.carousel-text {
+    background: rgba(0, 0, 0, 0.45);
+    bottom: 0px;
+    color: #fff;
+    overflow: hidden;
+    padding: 2% 3% 3%;
+    position: absolute;
+    white-space: normal;
+    width: 50%;
+    max-height: 95px;
+    z-index: 25;
+}
+
+.carousel-text h3 {
+    font-size: 1.125rem;
+    display: flex;
+    justify-content: start;
+    text-align: right;
+}
+
+.carousel-text p {
+    font-size: 0.875rem;
+    clear: both;
+    display: block;
+    display: flex;
+    text-align: right;
+    justify-items: start;
+    margin: 0;
+    font-family: "Amiri", serif;
+}
+
+.carousel-inner button {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 4px 12px;
+    font-size: 15px;
+    border: 4px solid #80d0bd;
+    border-width: 0px 5px 5px;
+    color: #fff;
+    border-radius: 8px;
+    background-color: #14bf96;
+}
+
+#exemple2Precedent {
+    position: relative;
+    top: 0;
+}
+
+#exemple2Suivant {
+    position: relative;
+    top: 0;
+}

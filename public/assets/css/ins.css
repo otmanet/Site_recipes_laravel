@@ -1,0 +1,75 @@
+  @import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+
+
+.social-icon-sign {
+    left: 0px;
+    z-index: 10;
+    position: absolute;
+    top: -5px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon-sign span {
+    font-size: 40px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.social-icon-sign span:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.card-header {
+    background-color: #14bf96;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+.card-header h3 {
+      font-family: "Amiri", serif;
+    color: #fff;
+    display: flex;
+    justify-content: start;
+    font-size: 25px;
+}
+
+input:focus {
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.otm-input-group {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 5px !important;
+    margin-top: 14px;
+}
+
+.otm-text-input {
+    height: 40px;
+    width: 100%;
+    padding-right: 10px;
+    box-shadow: 0px 0px 2px black;
+    border-radius: 4px;
+    border: 0;
+    border-radius: 1.5rem;
+}
+
+.card-body button {
+    width: 100%;
+    background: #14bf96;
+    padding: 8px;
+    font-size: 17px;
+    border-radius: 1.5rem;
+    border: 0;
+    color: #fff;
+    margin: 6px;
+}

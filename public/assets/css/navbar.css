@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+     font-family: "Amiri", serif;
+}
+
+a {
+    text-decoration: none;
+    color: #14bf96;
+}
+
+html,
+body {
+    background: #e1ecf2;
+}
+
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    z-index: 120;
+}
+
+.content2 {
+
+    width: 100%;
+   height:"533";
+   margin-bottom: 25px;
+}
+
+.wrapper .top-nav {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.top-nav .logo a {
+    display: flex;
+    align-items: center;
+}
+
+.top-nav .logo p {
+    color: #14bf96;
+    font-size: 30px;
+    font-family: "Amiri", serif;
+}
+
+.top-nav .logo div {
+    font-size: 18px;
+    font-weight: 700;
+    color: #14bf96;
+}
+
+.top-nav-item {
+    padding: 6px;
+    width: 80px;
+    height: 56px;
+    float: left;
+    border-left: 1px solid #f0f0f0;
+}
+
+.top-nav-item>button {
+    border: 0;
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-nav-item>button>i {
+    font-size: 20px;
+    color: #14bf96;
+}
+
+.wrapper .side-bar {
+    background: #14bf96;
+    width: 200px;
+    height: 100%;
+    min-height: 100%;
+    box-shadow: 1px 1px 1px #ebebeb;
+    transition: all 0.3s ease;
+}
+
+.side-bar .side-bar-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 60px;
+    background: #fff;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+
+
+.popup {
+    z-index: 200;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.31);
+}
+
+.close-button {
+    color: rgb(221, 216, 216);
+    display: flex;
+    justify-items: end;
+}
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon-close {
+    width: 2em;
+    height: 2em;
+}
+
+.svg-icon-close:hover {
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.svg-icon-close path,
+.svg-icon-close polygon,
+.svg-icon-close rect {
+    fill: #fff;
+}
+
+.svg-icon-close circle {
+    stroke: #fff;
+    stroke-width: 1;
+}
+
+/**************************************************************/
+.svg-icon1 path,
+.svg-icon1 polygon,
+.svg-icon1 rect {
+    fill: #fff;
+}
+
+.svg-icon1 circle {
+    stroke: #fff;
+    stroke-width: 1;
+}
+
+/* login///////////////////////////////////////// */
+.login {
+    align-content: center;
+    z-index: 99;
+}
+
+/*sign up/////////////////////////////////////////////////////*/
+.sign-up {
+    align-content: center;
+    z-index: 99;
+}
+
+.u_recipe {
+    display: inline-block;
+    float: right;
+     margin-right: 25px;
+    width: 240px;
+    border-radius: 1.5rem;
+    margin-bottom: 12px;
+
+}

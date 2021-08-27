@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.recipe {
+    width: 240px;
+    height: 360px;
+    margin-right: 20px;
+    background: #282828;
+    z-index: 0;
+    /* border-radius: 1.5rem; */
+}
+
+.recipe:last-child {
+    margin: 0;
+}
+
+.recipe__thumbnail {
+    position: relative;
+    width: 240px;
+    height:100%;
+    overflow: hidden;
+}
+
+.recipe__blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: blur(40px);
+    z-index: 0;
+}
+
+.recipe__image {
+    width: 100%;
+    height: 100%;
+    /* border-radius: 50%; */
+    z-index: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* border-radius: 1.5rem; */
+}
+
+/* .recipe__ring {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 80%, rgba(255, 255, 255, 0.2) 100%);
+    z-index: 2;
+    box-shadow: 4px 0 2px -4px rgba(255, 255, 255, 0.9), -4px 0 2px -4px rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.recipe__ring--outer {
+    width: 200px;
+    height: 200px;
+}
+
+.recipe__label {
+
+position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  font-size: 20px;
+  padding: 20px;
+  color: #fff;
+    text-align: right;
+     /* position: absolute;
+    bottom: 100%;
+    left: 0;
+     right: 0;
+    flex-direction: column;
+    background-color: #14bf96;
+    text-align: right;
+      overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease; */
+}
+.recipe:hover .recipe__label{
+ bottom: 0;
+ height: 100%;
+ z-index: 0;
+  /* border-radius: 1.5rem; */
+ opacity: 1;
+}
+.recipe__label p {
+    font-family: 'Amiri',
+        serif;
+        ;
+     font-size: 20px;
+     margin-right: 2px;
+
+}
+.recipe__label a {
+    font-family: 'Amiri',
+        serif;
+        ;
+     font-size: 28px;
+     position: absolute;
+     bottom: 0;
+     margin-bottom: 12px;
+     margin-right: 12px;
+     width: 100%;
+      color:#14bf96;
+}
+.recipe__label a:hover{
+     font-family: 'Amiri',
+        serif;
+        ;
+     font-size: 32px;
+ color:#fff;
+
+}
+.capital {
+
+    height: 50%;
+    color: #fff;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: 'Amiri',
+        serif;
+    ;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+
+/*# sourceMappingURL=thumbnails.css.map */
+

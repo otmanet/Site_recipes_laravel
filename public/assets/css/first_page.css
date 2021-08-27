@@ -1,0 +1,55 @@
+ @import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+    body {
+        font-family: "Amiri", serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Amiri", serif;
+        letter-spacing: 3px;
+        color: #14bf96;
+    }
+
+    .carousel-inner>.item>img,
+    .carousel-inner>.item>a>img {
+        width: 90%;
+        margin: auto;
+    }
+
+    .top-slide-item {
+        position: relative;
+        bottom: 0;
+        width: 450px;
+        display: flex;
+        justify-content: space-between;
+        right: 37%;
+    }
+
+    .top-slide-item a {
+        padding: 6px;
+        width: 80px;
+        height: 56px;
+        display: flex;
+        justify-content: start;
+        color: #14bf96;
+    }
+
+    .top-slide-item>a>span>i {
+        font-size: 30px;
+        color: black;
+    }
+
+    .top-slide-item>a>span>i:hover {
+        color: #14bf96;
+    }
+
+    .top-slide-item>a>span:hover {
+        font-size: 35px;
+        cursor: pointer;
+    }
